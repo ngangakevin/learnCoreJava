@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnCoreJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddressBookEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CircleTestDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparablePerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GenericBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnLinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnMutableSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnSortSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnStreamApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearnTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NativeStringComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseAnnotation.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2UNQpsFk2dCrOCX0STDI3CSU3qv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LearnHashSet.executor": "Run",
+    "Application.LearnLinkedHashSet.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ngangakingori/IdeaProjects/LearnCoreJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="GenericBoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericBoxTest" />
+      <module name="LearnCoreJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LearnHashSet" />
+      <module name="LearnCoreJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnLinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LearnLinkedHashSet" />
+      <module name="LearnCoreJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LearnCoreJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyArrayTest" />
+      <module name="LearnCoreJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LearnLinkedHashSet" />
+        <item itemvalue="Application.LearnHashSet" />
+        <item itemvalue="Application.GenericBoxTest" />
+        <item itemvalue="Application.MyArrayTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="" />
+      <created>1692777743923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692777743923</updated>
+      <workItem from="1692777746143" duration="21397000" />
+      <workItem from="1693283742660" duration="2403000" />
+      <workItem from="1693553843153" duration="599000" />
+      <workItem from="1693555576314" duration="16414000" />
+      <workItem from="1694000064848" duration="2359000" />
+      <workItem from="1694416518970" duration="132000" />
+      <workItem from="1694982243171" duration="11244000" />
+      <workItem from="1695186753594" duration="4798000" />
+      <workItem from="1695380050116" duration="6369000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LearnLists.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
