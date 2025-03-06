@@ -4,41 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnCoreJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AddressBookEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CircleTestDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparablePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GenericBoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnLinkedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnMutableSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnSortSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnStreamApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LearnTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NativeStringComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UseAnnotation.java" afterDir="false" />
+    <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="practice, practice makes the interview cut.">
+      <change afterPath="$PROJECT_DIR$/src/practice/DummyWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/InheritedDummyWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/ProducerConsumerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/SharedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/learnObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/learnObjects.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ngangakevin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ngangakevin/learnCoreJava.git",
+    "accountId": "3ca8418e-32d9-48ec-b223-a66ddfb194ea"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -70,9 +54,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.InheritedDummyWrapper.executor": "Run",
     "Application.LearnHashSet.executor": "Run",
     "Application.LearnLinkedHashSet.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.ProducerConsumerTest.executor": "Run",
+    "Application.learnObjects.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -99,49 +86,67 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="GenericBoxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericBoxTest" />
+  <component name="RunManager" selected="Application.ProducerConsumerTest">
+    <configuration name="InheritedDummyWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.InheritedDummyWrapper" />
       <module name="LearnCoreJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LearnHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LearnHashSet" />
-      <module name="LearnCoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LearnLinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LearnLinkedHashSet" />
+      <option name="MAIN_CLASS_NAME" value="dataTypes.LearnLinkedHashSet" />
       <module name="LearnCoreJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="dataTypes.Main" />
       <module name="LearnCoreJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyArrayTest" />
+    <configuration name="ProducerConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.ProducerConsumerTest" />
       <module name="LearnCoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="learnObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.learnObjects" />
+      <module name="LearnCoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerTest" />
+        <item itemvalue="Application.learnObjects" />
+        <item itemvalue="Application.InheritedDummyWrapper" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LearnLinkedHashSet" />
-        <item itemvalue="Application.LearnHashSet" />
-        <item itemvalue="Application.GenericBoxTest" />
-        <item itemvalue="Application.MyArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +168,23 @@
       <workItem from="1695186753594" duration="4798000" />
       <workItem from="1695380050116" duration="6369000" />
     </task>
+    <task id="LOCAL-00001" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1741232695468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741232695468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1741232917793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741232917793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,13 +201,22 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="practice, practice makes the interview cut." />
+    <option name="LAST_COMMIT_MESSAGE" value="practice, practice makes the interview cut." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LearnLists.java</url>
+          <url>file://$PROJECT_DIR$/src/dataTypes/LearnLists.java</url>
           <line>6</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/learnObjects.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
