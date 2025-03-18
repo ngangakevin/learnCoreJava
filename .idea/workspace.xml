@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="practice, practice makes the interview cut.">
-      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/sortingAlgorithms/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/CheckListDuplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/FindStringTextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/MergeTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/PrintDateFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/PyramidPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/SecondLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/ShuffleArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/SortHashMapItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/SumIntegers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/ProducerConsumerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/SharedQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/sortingAlgorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/sortingAlgorithms/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/sortingAlgorithms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/sortingAlgorithms/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +62,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinarySearch.executor": "Debug",
+    "Application.CheckListDuplication.executor": "Run",
     "Application.CheckPrimeNumber.executor": "Run",
     "Application.CheckVowels.executor": "Run",
     "Application.DetectDeadlock.executor": "Run",
     "Application.FibonacciRecursion.executor": "Run",
     "Application.FindFactorial.executor": "Run",
+    "Application.FindStringTextFile.executor": "Run",
     "Application.InheritedDummyWrapper.executor": "Run",
     "Application.IntInteger.executor": "Run",
     "Application.LeadingTrailingWhitespace.executor": "Run",
@@ -72,16 +77,24 @@
     "Application.LearnStreams.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeSort.executor": "Run",
+    "Application.MergeTwoLists.executor": "Run",
     "Application.OddNumberCheck.executor": "Run",
     "Application.PalindromeCheck.executor": "Run",
+    "Application.PrintDateFormat.executor": "Run",
     "Application.ProducerConsumerTest.executor": "Run",
+    "Application.PyramidPattern.executor": "Run",
     "Application.RemoveWhitespace.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
+    "Application.ShuffleArray.executor": "Run",
     "Application.SortArray.executor": "Run",
+    "Application.SortHashMapItems.executor": "Run",
+    "Application.SumIntegers.executor": "Run",
     "Application.SwapNumbers.executor": "Run",
     "Application.learnObjects.executor": "Run",
     "Application.practice.interviewQuestions.Main.executor": "Run",
     "Application.practice.interviewQuestions.reverseLinkedList.Main.executor": "Run",
+    "Application.practice.interviewQuestions.sortingAlgorithms.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -109,9 +122,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.BinarySearch" />
+  <component name="RunManager" selected="Application.SortHashMapItems">
+    <configuration name="FindStringTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.FindStringTextFile" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeadingTrailingWhitespace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.LeadingTrailingWhitespace" />
+    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.MergeTwoLists" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
@@ -136,21 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.forceDeadlock.Main" />
-      <module name="LearnCoreJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.interviewQuestions.forceDeadlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.MergeSort" />
+    <configuration name="PrintDateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.PrintDateFormat" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
@@ -162,12 +162,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.interviewQuestions.reverseLinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.reverseLinkedList.Main" />
+    <configuration name="ShuffleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.ShuffleArray" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.interviewQuestions.reverseLinkedList.*" />
+          <option name="PATTERN" value="practice.interviewQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortHashMapItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.SortHashMapItems" />
+      <module name="LearnCoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.interviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.practice.interviewQuestions.reverseLinkedList.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LeadingTrailingWhitespace" />
+        <item itemvalue="Application.SortHashMapItems" />
+        <item itemvalue="Application.MergeTwoLists" />
+        <item itemvalue="Application.PrintDateFormat" />
+        <item itemvalue="Application.FindStringTextFile" />
+        <item itemvalue="Application.ShuffleArray" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741246411138</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1741840568317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741840568317</updated>
+    </task>
+    <task id="LOCAL-00005" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1741840591775</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741840591775</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

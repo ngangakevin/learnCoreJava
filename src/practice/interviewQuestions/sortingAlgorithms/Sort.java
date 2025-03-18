@@ -3,7 +3,7 @@ package practice.interviewQuestions.sortingAlgorithms;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MergeSort <T extends Comparable<T>> {
+public class Sort <T extends Comparable<T>> {
     public List<T> mergeTwoLists(List<T> first, List<T> second){
         int i = 0; int j = 0; int k=0;
         List<T> result = new ArrayList<>();
@@ -43,7 +43,7 @@ public class MergeSort <T extends Comparable<T>> {
         return mergeSort(list, start, stop);
     }
 
-    public List<T> mergeSort(List<T> list, int start, int stop){
+    private List<T> mergeSort(List<T> list, int start, int stop){
         if(start == stop){
             List<T> result = new ArrayList<>();
             result.add(list.get(start));
