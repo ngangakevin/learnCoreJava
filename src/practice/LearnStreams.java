@@ -24,13 +24,8 @@ public class LearnStreams {
 //        Integer num2 = 7;
 //        System.out.println(num2 + num1);
         String text = "hello";
-        String result = new StringBuilder(text).reverse().toString().chars()
-                .mapToObj(c-> String.valueOf((char) c))
-                .collect(Collectors.joining());
+        String result = new StringBuilder(text).reverse().toString();
         System.out.println(result);
-
-        char ch = 'a';
-        System.out.print(Character.toUpperCase(ch));
     }
 
     Stream<Integer> test = IntStream.of(1,2,3,4,5)

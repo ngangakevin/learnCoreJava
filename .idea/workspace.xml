@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="practice, practice makes the interview cut.">
-      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/StringManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/RecordLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/RecordNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/RemoveOccurrences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataTypes/LearnTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataTypes/LearnTreeSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/LearnStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/LearnStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/SecondLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/StringManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/StringManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/SwapNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/SwapNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/learnThreading/SharedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/learnThreading/SharedQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +72,7 @@
     "Application.LearnHashSet.executor": "Run",
     "Application.LearnLinkedHashSet.executor": "Run",
     "Application.LearnStreams.executor": "Run",
+    "Application.LearnTreeSet.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.MergeTwoLists.executor": "Run",
@@ -114,13 +122,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringManipulation">
-    <configuration name="MergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.MergeTwoLists" />
+  <component name="RunManager" selected="Application.LearnTreeSet">
+    <configuration name="IntInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.IntInteger" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.interviewQuestions.*" />
+          <option name="PATTERN" value="practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintDateFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.PrintDateFormat" />
+    <configuration name="LearnTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataTypes.LearnTreeSet" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.interviewQuestions.*" />
+          <option name="PATTERN" value="dataTypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.RemoveOccurrences" />
+    <configuration name="ProducerConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.learnThreading.ProducerConsumerTest" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.interviewQuestions.*" />
+          <option name="PATTERN" value="practice.learnThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,8 +162,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortHashMapItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.SortHashMapItems" />
+    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.SecondLargest" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
@@ -182,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LearnTreeSet" />
+        <item itemvalue="Application.SecondLargest" />
         <item itemvalue="Application.StringManipulation" />
-        <item itemvalue="Application.RemoveOccurrences" />
-        <item itemvalue="Application.SortHashMapItems" />
-        <item itemvalue="Application.MergeTwoLists" />
-        <item itemvalue="Application.PrintDateFormat" />
+        <item itemvalue="Application.ProducerConsumerTest" />
+        <item itemvalue="Application.IntInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742271179294</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1742358914684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742358914684</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

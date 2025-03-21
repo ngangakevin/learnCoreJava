@@ -17,7 +17,7 @@ public class AddressBookEntry implements Comparable<AddressBookEntry>{
 
     @Override
     public int compareTo(@NotNull AddressBookEntry other) {
-        return this.name.compareToIgnoreCase(other.name);
+        return this.name.compareTo(other.name);
     }
 
     @Override

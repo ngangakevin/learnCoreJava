@@ -4,8 +4,8 @@ public class ReverseString {
 
     public static void main (String[] args){
         String name = "Kevin";
-        StringBuilder reverse = new StringBuilder(name).reverse();
-        String result = new String(reverse);
-        System.out.println(result);
+        String reverse = new StringBuilder(name).reverse().toString();
+//        String result = new String(reverse);
+        System.out.println(reverse);
     }
 }

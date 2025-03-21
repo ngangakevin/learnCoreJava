@@ -51,12 +51,16 @@ public class StringManipulation {
     }
 
     public static void shortSet(){
-        HashSet<Integer> set = new HashSet<>();
-        for(int i=0; i< 100; i++){
+        /* boxing and autoboxing. without explicit casting from a larger data type to a small data type
+        * in arithmetic operations, the smaller data type is first promoted, int - (or any opr) int is performed
+        * Also, short - int = int. also, int - short = int
+        * */
+        HashSet<Short> set = new HashSet<>();
+        for(short i=0; i< 100; i++){
             set.add(i);
-            set.remove(i- Short.valueOf((short) 1));
+            set.remove((short) (i / 2));
         }
-        System.out.println(set);
+        System.out.println(set.size());
     }
 
     public static void main(String[] args){

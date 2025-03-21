@@ -1,6 +1,7 @@
 package practice.interviewQuestions;
 
 public class SwapNumbers {
+    //changes value  of a and b without creating a new variable c
     public static void main(String[] args){
         int a = 5;
         int b = 11;
