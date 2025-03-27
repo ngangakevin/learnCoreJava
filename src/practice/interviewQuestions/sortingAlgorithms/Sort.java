@@ -7,6 +7,7 @@ public class Sort <T extends Comparable<T>> {
     public List<T> mergeTwoLists(List<T> first, List<T> second){
         int i = 0; int j = 0; int k=0;
         List<T> result = new ArrayList<>();
+
         while(i< first.size() && j< second.size()){
             if(first.get(i).compareTo(second.get(j)) < 0){
                 result.add(k, first.get(i));
