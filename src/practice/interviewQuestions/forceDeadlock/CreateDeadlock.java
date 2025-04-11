@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class CreateDeadlock {
 //    Create a producer method and consumer method for a stream
 //    Create a thread to produce and multiple consumers to consume
-//    Use notify istead of notifyall on producer.
+//    Use notify instead of notifyall on producer.
     public LinkedList<Integer> queue = new LinkedList<>();
     public synchronized void producer() throws InterruptedException {
         int allowedSize = 10;
@@ -15,7 +15,7 @@ public class CreateDeadlock {
                 wait(5000); // Wait if queue is full
             }
             queue.add(value++);
-            notifyAll(); // Wake up consumers
+            notify(); // Wake up consumers
         }
     }
 
