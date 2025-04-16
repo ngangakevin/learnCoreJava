@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="practice, practice makes the interview cut.">
-      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/HowManyWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/MinimumCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/NthFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/CoinChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/forceDeadlock/CreateDeadlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/forceDeadlock/CreateDeadlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/DynamicPrograming/HowManyWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/HowManyWays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +56,7 @@
     "Application.CheckListDuplication.executor": "Run",
     "Application.CheckPrimeNumber.executor": "Run",
     "Application.CheckVowels.executor": "Run",
+    "Application.CoinChange.executor": "Run",
     "Application.DetectDeadlock.executor": "Run",
     "Application.FibonacciRecursion.executor": "Run",
     "Application.FindFactorial.executor": "Run",
@@ -66,6 +64,7 @@
     "Application.HowManyWays.executor": "Run",
     "Application.InheritedDummyWrapper.executor": "Run",
     "Application.IntInteger.executor": "Run",
+    "Application.Knapsack.executor": "Debug",
     "Application.LeadingTrailingWhitespace.executor": "Run",
     "Application.LearnHashSet.executor": "Run",
     "Application.LearnLinkedHashSet.executor": "Run",
@@ -74,7 +73,7 @@
     "Application.Main.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.MergeTwoLists.executor": "Run",
-    "Application.MinimumCoins.executor": "Debug",
+    "Application.MinimumCoins.executor": "Run",
     "Application.MoveZerosToEnd.executor": "Run",
     "Application.OddNumberCheck.executor": "Run",
     "Application.PalindromeCheck.executor": "Run",
@@ -115,7 +114,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -123,7 +122,20 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HowManyWays">
+  <component name="RunManager" selected="Application.MinimumCoins">
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.CoinChange" />
+      <module name="LearnCoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.DynamicPrograming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HowManyWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.HowManyWays" />
       <module name="LearnCoreJava" />
@@ -137,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataTypes.LearnTreeSet" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.Knapsack" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataTypes.*" />
+          <option name="PATTERN" value="practice.DynamicPrograming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,19 +168,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.DynamicPrograming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.twoPointers.MoveZerosToEnd" />
-      <module name="LearnCoreJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.twoPointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HowManyWays" />
         <item itemvalue="Application.MinimumCoins" />
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.HowManyWays" />
+        <item itemvalue="Application.Knapsack" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.MoveZerosToEnd" />
-        <item itemvalue="Application.LearnTreeSet" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743060494020</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1744352134152</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744352134152</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,34 +401,14 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/MinimumCoins.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="63" />
+          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/MinimumCoins.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/MinimumCoins.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/MinimumCoins.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/MinimumCoins.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/HowManyWays.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="68" />
+          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/practice/twoPointers/RemoveDuplicates.java</url>

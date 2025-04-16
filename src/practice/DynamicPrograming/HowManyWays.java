@@ -16,7 +16,8 @@ public class HowManyWays {
             return 0;
         }
         for(int value: values){
-            ways += countWays(target-value, values);
+            int remaining = target-value;
+            ways += countWays(remaining, values);
         }
         memo.put(target, ways);
         return ways;
@@ -24,7 +25,7 @@ public class HowManyWays {
 
     public static void main(String[] args){
 //        System.out.println(countWays(5, new int[] {1,4,5}));
-        System.out.println(countWays(0, new int[] {1, 2, 5}));
+        System.out.println(countWays(5, new int[] {1, 2, 3}));
     }
 
 }
