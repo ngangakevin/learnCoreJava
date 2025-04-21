@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Knapsack {
     public static int result = 0;
-    static Map<Integer, Integer> memo = new HashMap<>();
+    static Map<String, Integer> memo = new HashMap<>();
     public static int solveKnapsack(int capacity, int[] values, int[] weights){
         if(capacity <= 0){
             return 0;
@@ -32,7 +32,7 @@ public class Knapsack {
         if(i == weights.length || capacity ==0){
             return 0;
         }
-        int key = i;
+        String key = i + "_" + capacity;
         if(memo.containsKey(key)) return memo.get(key);
 
         int notTake = knapsackTD1(capacity, values, i+1, weights);
@@ -47,9 +47,9 @@ public class Knapsack {
         return result;
     }
  public static void main(String[] args){
-     int[] weights = {2, 3, 4, 5};
-     int[] values = {3, 4, 5, 6};
-     int capacity = 5;
-        System.out.println(knapsackTD1(capacity, values, 0, weights));
+     int [] values  = {10, 40, 50, 70};
+     int [] weights = {1,  3,  4,  5};
+     int capacity = 8;
+        System.out.println(knapsackTD1(capacity, values,0, weights));
  }
 }

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="practice, practice makes the interview cut.">
-      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/JumpingFrog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/MinCost2DTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/MinStrOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/TwoDTraversalPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/UnboundedKnapsack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/DynamicPrograming/JumpingFrog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/JumpingFrog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,8 @@
     "Application.HowManyWays.executor": "Run",
     "Application.InheritedDummyWrapper.executor": "Run",
     "Application.IntInteger.executor": "Run",
-    "Application.Knapsack.executor": "Debug",
+    "Application.JumpingFrog.executor": "Run",
+    "Application.Knapsack.executor": "Run",
     "Application.LeadingTrailingWhitespace.executor": "Run",
     "Application.LearnHashSet.executor": "Run",
     "Application.LearnLinkedHashSet.executor": "Run",
@@ -76,7 +77,7 @@
     "Application.MergeSort.executor": "Run",
     "Application.MergeTwoLists.executor": "Run",
     "Application.MinCost2DTraversal.executor": "Run",
-    "Application.MinStrOperations.executor": "Run",
+    "Application.MinStrOperations.executor": "Debug",
     "Application.MinimumCoins.executor": "Run",
     "Application.MoveZerosToEnd.executor": "Run",
     "Application.OddNumberCheck.executor": "Run",
@@ -96,6 +97,7 @@
     "Application.SumIntegers.executor": "Run",
     "Application.SwapNumbers.executor": "Run",
     "Application.TwoDTraversalPaths.executor": "Debug",
+    "Application.UnboundedKnapsack.executor": "Run",
     "Application.learnObjects.executor": "Run",
     "Application.practice.interviewQuestions.Main.executor": "Run",
     "Application.practice.interviewQuestions.reverseLinkedList.Main.executor": "Run",
@@ -127,7 +129,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinStrOperations">
+  <component name="RunManager" selected="Application.CoinChange">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.CoinChange" />
       <module name="LearnCoreJava" />
@@ -141,8 +143,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinCost2DTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.MinCost2DTraversal" />
+    <configuration name="JumpingFrog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.JumpingFrog" />
+      <module name="LearnCoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.DynamicPrograming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.Knapsack" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
@@ -167,21 +182,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.MinimumCoins" />
-      <module name="LearnCoreJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.DynamicPrograming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoDTraversalPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.TwoDTraversalPaths" />
+    <configuration name="UnboundedKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.UnboundedKnapsack" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
@@ -195,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinStrOperations" />
-        <item itemvalue="Application.TwoDTraversalPaths" />
-        <item itemvalue="Application.MinCost2DTraversal" />
-        <item itemvalue="Application.MinimumCoins" />
         <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.JumpingFrog" />
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.UnboundedKnapsack" />
+        <item itemvalue="Application.MinStrOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744821421013</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1744879881931</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744879881931</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,19 +424,14 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/TwoDTraversalPaths.java</url>
           <line>27</line>
           <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/DynamicPrograming/MinStrOperations.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/practice/twoPointers/RemoveDuplicates.java</url>

@@ -15,4 +15,9 @@ public class JumpingFrog {
         }
         return prev1;
     }
+
+    public static void main(String[] args){
+        int[] heights = {10, 30, 20, 50};
+        System.out.println(bottomUp(heights));
+    }
 }
