@@ -40,7 +40,7 @@ public class MoveZerosToEnd {
     }
 
     public static void main(String[] args){
-        int[] list = new int[] {1,2,0,0,0,0,0,0,1,2,0};
+        int[] list = new int[] {0,1,0,3,12};
 //        System.out.println(Arrays.toString(moveZeros(Arrays.copyOf(list))));
         System.out.println(Arrays.toString(moveZerosOptimized(list)));
     }

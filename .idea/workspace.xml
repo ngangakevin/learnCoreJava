@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="practice, practice makes the interview cut.">
-      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/UnboundedKnapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/leetcode/productExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/shortestpath/Dijkstras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/DynamicPrograming/JumpingFrog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/JumpingFrog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/twoPointers/MoveZerosToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/twoPointers/MoveZerosToEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayProduct.executor": "Run",
     "Application.BinarySearch.executor": "Debug",
     "Application.CellVisits.executor": "Run",
     "Application.CheckListDuplication.executor": "Run",
@@ -79,7 +79,7 @@
     "Application.MinCost2DTraversal.executor": "Run",
     "Application.MinStrOperations.executor": "Debug",
     "Application.MinimumCoins.executor": "Run",
-    "Application.MoveZerosToEnd.executor": "Run",
+    "Application.MoveZerosToEnd.executor": "Debug",
     "Application.OddNumberCheck.executor": "Run",
     "Application.PalindromeCheck.executor": "Run",
     "Application.PrintDateFormat.executor": "Run",
@@ -102,6 +102,7 @@
     "Application.practice.interviewQuestions.Main.executor": "Run",
     "Application.practice.interviewQuestions.reverseLinkedList.Main.executor": "Run",
     "Application.practice.interviewQuestions.sortingAlgorithms.Main.executor": "Run",
+    "Application.productExceptSelf.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -129,7 +130,20 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoinChange">
+  <component name="RunManager" selected="Application.Dijkstras">
+    <configuration name="ArrayProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.leetcode.ArrayProduct" />
+      <module name="LearnCoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.CoinChange" />
       <module name="LearnCoreJava" />
@@ -143,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpingFrog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.JumpingFrog" />
+    <configuration name="Dijkstras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.shortestpath.Dijkstras" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.DynamicPrograming.*" />
+          <option name="PATTERN" value="practice.shortestpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.Knapsack" />
+    <configuration name="MoveZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.twoPointers.MoveZerosToEnd" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.DynamicPrograming.*" />
+          <option name="PATTERN" value="practice.twoPointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,25 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinStrOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.MinStrOperations" />
+    <configuration name="productExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.leetcode.productExceptSelf" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.DynamicPrograming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnboundedKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.DynamicPrograming.UnboundedKnapsack" />
-      <module name="LearnCoreJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.DynamicPrograming.*" />
+          <option name="PATTERN" value="practice.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dijkstras" />
+        <item itemvalue="Application.MoveZerosToEnd" />
+        <item itemvalue="Application.productExceptSelf" />
+        <item itemvalue="Application.ArrayProduct" />
         <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.JumpingFrog" />
-        <item itemvalue="Application.Knapsack" />
-        <item itemvalue="Application.UnboundedKnapsack" />
-        <item itemvalue="Application.MinStrOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744879881931</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1745255098441</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1745255098441</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
