@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class Dijkstras {
+public class ShortestToAllNodes {
     // construct an adjacency matrix using an Arraylist of Arraylist.
     public static ArrayList<ArrayList<ArrayList<Integer>>> constructAdj(int[][] edges, int V) {
         ArrayList<ArrayList<ArrayList<Integer>>> adj = new ArrayList<>();
@@ -55,6 +55,8 @@ public class Dijkstras {
 
         while(!pq.isEmpty()){
             ArrayList<Integer> curr = pq.poll();
+            //d  -> distance
+            // u -> item
             int d = curr.get(0);
             int u = curr.get(1);
 
@@ -85,7 +87,7 @@ public class Dijkstras {
 
         int[][] edges = {
                 {0,1,4}, {0,2,8}, {1,4,6},
-                {2,3,2}, {3,4,10}
+                {2,3,16}, {3,4,10}
         };
 
         int[] result = dijkstra(V, edges, src);
