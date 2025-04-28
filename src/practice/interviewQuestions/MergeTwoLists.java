@@ -5,8 +5,6 @@ import java.util.*;
 public class MergeTwoLists {
     public static void mergeArrays(String[] list1, String[] list2){
         List<String> mergedArr = new ArrayList<>();
-        Map<Integer, Integer> test = new HashMap<>();
-
         mergedArr.addAll(Arrays.asList(list1));
         mergedArr.addAll(Arrays.asList(list2));
         System.out.println(mergedArr);

@@ -6,7 +6,6 @@ import java.util.Hashtable;
 
 public class LRUCache {
     HashMap<Integer, Node> cache = new HashMap<>();
-    HashSet<Integer> test = new HashSet<>();
     int capacity;
     Node left;
     Node right ;

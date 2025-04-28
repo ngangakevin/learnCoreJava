@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="practice, practice makes the interview cut.">
+      <change afterPath="$PROJECT_DIR$/src/practice/LearnConstructors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/DynamicPrograming/MinStrOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/MinStrOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/shortestpath/Dijkstras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/shortestpath/ShortestToAllNodes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/twoPointers/MoveZerosToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/twoPointers/MoveZerosToEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/MergeTwoLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
     "Application.LearnStreams.executor": "Run",
     "Application.LearnTreeSet.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.MergeSort.executor": "Run",
+    "Application.MergeSort.executor": "Debug",
     "Application.MergeTwoLists.executor": "Run",
     "Application.MinCost2DTraversal.executor": "Run",
     "Application.MinStrOperations.executor": "Debug",
@@ -132,13 +132,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MoveZerosToEnd">
-    <configuration name="ArrayProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.leetcode.ArrayProduct" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="Dijkstras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.shortestpath.Dijkstras" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.leetcode.*" />
+          <option name="PATTERN" value="practice.shortestpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dijkstras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.shortestpath.Dijkstras" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.MergeSort" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.shortestpath.*" />
+          <option name="PATTERN" value="practice.interviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MoveZerosToEnd" />
         <item itemvalue="Application.ShortestToAllNodes" />
         <item itemvalue="Application.Dijkstras" />
         <item itemvalue="Application.productExceptSelf" />
-        <item itemvalue="Application.ArrayProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745613641086</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1745661897581</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1745661897581</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,31 +379,6 @@
           <url>file://$PROJECT_DIR$/src/practice/learnObjects.java</url>
           <line>44</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/LinkedList.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/LinkedList.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/LinkedList.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/LinkedList.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/LinkedList.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/BinarySearch.java</url>
@@ -501,6 +484,11 @@
           <url>file://$PROJECT_DIR$/src/practice/shortestpath/ShortestToAllNodes.java</url>
           <line>53</line>
           <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/MergeSort.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/practice/twoPointers/RemoveDuplicates.java</url>
