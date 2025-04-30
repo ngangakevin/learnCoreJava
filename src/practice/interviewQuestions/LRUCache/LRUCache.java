@@ -1,8 +1,6 @@
 package practice.interviewQuestions.LRUCache;
 
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Hashtable;
 
 public class LRUCache {
     HashMap<Integer, Node> cache = new HashMap<>();
@@ -16,7 +14,6 @@ public class LRUCache {
         left.next = right;
         right.prev = left;
     }
-
     public void insert(Node node){
         Node prev;
         Node next;
