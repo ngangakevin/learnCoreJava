@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="practice, practice makes the interview cut.">
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/reverseLinkedList/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/CheckPrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/CheckPrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/FibonacciRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/FibonacciRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/FindFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/FindFactorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/PalindromeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/PalindromeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/learnThreading/ProducerConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/learnThreading/ProducerConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/learnThreading/SharedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/learnThreading/SharedQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,22 +138,9 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="Dijkstras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.shortestpath.Dijkstras" />
-      <module name="LearnCoreJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.shortestpath.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.MergeSort" />
+  <component name="RunManager" selected="Application.FindFactorial">
+    <configuration name="CheckPrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.CheckPrimeNumber" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
@@ -157,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.twoPointers.MoveZerosToEnd" />
+    <configuration name="FibonacciRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.FibonacciRecursion" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.twoPointers.*" />
+          <option name="PATTERN" value="practice.interviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestToAllNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.shortestpath.ShortestToAllNodes" />
+    <configuration name="FindFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.FindFactorial" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.shortestpath.*" />
+          <option name="PATTERN" value="practice.interviewQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +178,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="productExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.leetcode.productExceptSelf" />
+    <configuration name="PalindromeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.PalindromeCheck" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.leetcode.*" />
+          <option name="PATTERN" value="practice.interviewQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.learnThreading.ProducerConsumerTest" />
+      <module name="LearnCoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.learnThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MoveZerosToEnd" />
-        <item itemvalue="Application.ShortestToAllNodes" />
-        <item itemvalue="Application.Dijkstras" />
-        <item itemvalue="Application.productExceptSelf" />
+        <item itemvalue="Application.ProducerConsumerTest" />
+        <item itemvalue="Application.FindFactorial" />
+        <item itemvalue="Application.PalindromeCheck" />
+        <item itemvalue="Application.FibonacciRecursion" />
+        <item itemvalue="Application.CheckPrimeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745862001291</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1746008526705</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1746008526705</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,6 +512,26 @@
           <line>44</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/PalindromeCheck.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/PalindromeCheck.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/PalindromeCheck.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/PalindromeCheck.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/practice/twoPointers/RemoveDuplicates.java</url>
           <line>26</line>
@@ -504,6 +540,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/practice/interviewQuestions/CheckPrimeNumber.java</url>
+          <line>25</line>
+          <properties class="practice.interviewQuestions.CheckPrimeNumber" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -56,6 +56,22 @@ public class MergeSort {
         return mergeSort(low, high, list);
     }
 
+    public static int[] mergeSort2(int[] list){
+        int start = 0;
+        int stop = list.length-1;
+        return mergeSort2(list, start, stop);
+    }
+    public static int[] mergeSort2(int[] list, int start, int stop){
+        if(start == stop){
+            return new int[] {list[stop]};
+        }else{
+            int mid = start + (stop-start)/2;
+            int[] fh = mergeSort(start, mid, list);
+            int[] sh = mergeSort(mid+1, stop, list);
+            return mergeTwoArrays(fh, sh);
+        }
+    }
+
     public static void main(String[] args){
         int[] list = {5,4,3,2,6,7,8,9,0};
         System.out.print(Arrays.toString(mergeSort(list)));

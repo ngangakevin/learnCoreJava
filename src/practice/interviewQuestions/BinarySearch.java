@@ -68,4 +68,21 @@ public class BinarySearch {
         int item  = 6;
         System.out.println(recurseWithCopy(item, sortedList));
     }
+
+
+    public static int bs(int[] sorted, int searchItem){
+        int start = 0;
+        int stop = sorted.length-1;
+        while(start <stop){
+            int mid = start + (stop-start)/2;
+            if(sorted[mid] == searchItem){
+                return mid;
+            } else if (sorted[mid] > searchItem) {
+                stop = mid-1;
+            }else{
+                start = mid + 1;
+            }
+        }
+        return -1;
+    }
 }

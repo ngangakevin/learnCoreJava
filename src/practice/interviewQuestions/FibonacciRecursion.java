@@ -11,7 +11,25 @@ public class FibonacciRecursion {
         return recursiveFib(count -1) + recursiveFib(count-2);
     }
 
+    public static int dynamicFib(int count){
+        if(count <=2){
+            return 1;
+        }
+        int firstTerm = 0;
+        int secondTerm = 1;
+        int fib = 1;
+        for(int i = 1; i<= count; i++){
+            System.out.println(firstTerm);
+            fib = firstTerm + secondTerm;
+            firstTerm = secondTerm;
+            secondTerm = fib;
+        }
+
+        return fib;
+    }
+
     public static void main(String[] args){
-        System.out.println(recursiveFib(7));
+        dynamicFib(7);
+        System.out.println(dynamicFib(7));
     }
 }
