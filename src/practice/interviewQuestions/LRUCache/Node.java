@@ -4,8 +4,10 @@ public class Node {
     // Add key value to match leetcode solution.
     Node prev;
     Node next;
-    int item;
-    public Node(int item){
-        this.item= item;
+    int key;
+    int value;
+    public Node(int key, int value){
+        this.key = key;
+        this.value = value;
     }
 }

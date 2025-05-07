@@ -2,7 +2,7 @@ package practice.DynamicPrograming;
 
 import java.util.*;
 
-public class Knapsack {
+public class KnapsackProblem {
     public static int result = 0;
     static Map<String, Integer> memo = new HashMap<>();
     public static int solveKnapsack(int capacity, int[] values, int[] weights){

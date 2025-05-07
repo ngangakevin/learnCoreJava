@@ -9,8 +9,8 @@ public class LRUCache {
     Node right ;
     public LRUCache(int capacity){
         this.capacity = capacity;
-        left = new Node(0);
-        right = new Node(0);
+        left = new Node(0, 0);
+        right = new Node(0, 0);
         left.next = right;
         right.prev = left;
     }
@@ -37,7 +37,7 @@ public class LRUCache {
         if(this.cache.containsKey(key)){
             remove(this.cache.get(key));
             insert(this.cache.get(key));
-            return this.cache.get(key).item;
+            return this.cache.get(key).key;
         }
         return -1;
     }
@@ -45,12 +45,12 @@ public class LRUCache {
     public void put(int key, int value){
         if (this.cache.containsKey(key)){
             remove(this.cache.get(key));
-            cache.put(key, new Node(value));
+            cache.put(key, new Node(key, value));
             insert(this.cache.get(key));
         }if (this.cache.size() >= this.capacity){
             Node lruNode = left.next;
             remove(lruNode);
-            cache.remove(lruNode.item);
+            cache.remove(lruNode.key);
         }
     }
 }
