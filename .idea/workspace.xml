@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="practice, practice makes the interview cut.">
-      <change afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack/Bounded01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/binarySearchTree/InorderSuccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/binarySearchTree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/binarySearchTree/ZigzagIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/DynamicPrograming/Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/DynamicPrograming/KnapsackProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/LRUCache/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,30 +130,20 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="practice.binarySearchTree" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveWhitespace">
+  <component name="RunManager" selected="Application.SortHashMapItems">
     <configuration name="CheckVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.CheckVowels" />
       <module name="LearnCoreJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.interviewQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.learnThreading.ProducerConsumerTest" />
-      <module name="LearnCoreJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.learnThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,13 +190,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortHashMapItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.interviewQuestions.SortHashMapItems" />
+      <module name="LearnCoreJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.interviewQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortHashMapItems" />
         <item itemvalue="Application.RemoveWhitespace" />
         <item itemvalue="Application.CheckVowels" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.RightSideView" />
-        <item itemvalue="Application.ProducerConsumerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746417553721</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1746591430777</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1746591430777</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
