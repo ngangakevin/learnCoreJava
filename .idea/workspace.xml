@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="475ea36e-8375-438b-a5e8-cf6eab5f694f" name="Changes" comment="practice, practice makes the interview cut.">
-      <change afterPath="$PROJECT_DIR$/src/practice/twoPointers/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/interviewQuestions/KSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -398,7 +398,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747300894255</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="practice, practice makes the interview cut.">
+      <option name="closed" value="true" />
+      <created>1747627595315</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1747627595315</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
