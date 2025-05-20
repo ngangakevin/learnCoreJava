@@ -1,8 +1,6 @@
 package practice.interviewQuestions;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class KSum {
     public static List<List<Integer>> threeSum(int[] nums){
