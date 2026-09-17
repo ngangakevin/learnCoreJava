@@ -28,6 +28,7 @@ public class KSum {
             if(i== start || nums[i] != nums[i-1]){
                 for(List<Integer> subset: kSum(nums, target-nums[i], i+1, k-1)){
                     result.add(new ArrayList<>(List.of(nums[i])));
+
                     result.getLast().addAll(subset);
                 }
             }

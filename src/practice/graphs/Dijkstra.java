@@ -48,6 +48,10 @@ public class Dijkstra {
             int d = curr.get(0);
             int u = curr.get(1);
 
+            if (d > dist[u]){
+                continue;
+            }
+
             for(ArrayList<Integer> neighbor: adj.get(u)){
                 int v = neighbor.get(0);
                 int weight = neighbor.get(1);
